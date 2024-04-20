@@ -17,7 +17,7 @@ jobs:
         target:
           - x86_64-unknown-linux-musl
           - aarch64-unknown-linux-musl
-          - arm-linux-androideabi
+          - aarch64-linux-android
           - x86_64-apple-darwin
           - aarch64-apple-darwin
           - x86_64-pc-windows-msvc
@@ -30,7 +30,7 @@ jobs:
             target: aarch64-unknown-linux-musl
             use-cross: true
           - os: ubuntu-latest
-            target: arm-linux-androideabi
+            target: aarch64-linux-android
             use-cross: true
           - os: macos-latest
             target: x86_64-apple-darwin
