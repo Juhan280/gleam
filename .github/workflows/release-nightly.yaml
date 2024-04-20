@@ -55,6 +55,7 @@ jobs:
         target:
           - x86_64-unknown-linux-musl
           - aarch64-unknown-linux-musl
+          - aarch64-linux-android
           - x86_64-apple-darwin
           - aarch64-apple-darwin
           - x86_64-pc-windows-msvc
@@ -65,6 +66,9 @@ jobs:
             use-cross: true
           - os: ubuntu-latest
             target: aarch64-unknown-linux-musl
+            use-cross: true
+          - os: ubuntu-latest
+            target: aarch64-linux-android
             use-cross: true
           - os: macos-latest
             target: x86_64-apple-darwin
