@@ -29,7 +29,7 @@ jobs:
           - os: ubuntu-latest
             target: aarch64-unknown-linux-musl
             use-cross: true
-          - os: ubuntu-latest
+          - os: android-latest
             target: aarch64-linux-android
             use-cross: true
           - os: macos-latest
