@@ -58,7 +58,7 @@ jobs:
             run-integration-tests: false # Cannot run aarch64 binaries on x86_64
           - os: ubuntu-latest
             target: aarch64-linux-android
-            use-cross: false
+            use-cross: true
             run-integration-tests: false # Cannot run aarch64 binaries on x86_64
           - os: macos-12  # intel
             target: x86_64-apple-darwin
